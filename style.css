@@ -921,8 +921,7 @@ footer {
     width: 100%;
 }
 .navbar-secciones {
-    background: linear-gradient(rgb(192 197 211 / 75%), rgb(243 243 243 / 97%));
-    background-image: url(img/nav.jpg);
+    background: linear-gradient(rgb(192 197 211 / 75%), rgb(243 243 243 / 97%)), url(/img/nav.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
