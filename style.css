@@ -920,6 +920,9 @@ footer {
     top: 0;
     width: 100%;
 }
+.boton-principal {
+    filter: invert(1);
+}
 .navbar-secciones {
     background: linear-gradient(rgb(192 197 211 / 75%), rgb(243 243 243 / 97%)), url(/img/nav.jpg);
     background-position: 50% 50%;
