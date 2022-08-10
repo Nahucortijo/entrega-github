@@ -37,11 +37,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 .nav .logo {
   width: 5.1875em;
 }
-
 .nav ul li {
   list-style: none;
   display: inline-block;
@@ -54,10 +52,10 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 1em;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   color: #ffffff;
+  padding: 3px;
 }
-
 .nav-menu-link:hover {
   color: #ffffff;
 }
@@ -73,11 +71,6 @@ body {
   align-content: space-around;
   transition: 0.5s;
 }
-
-.nav-menu-link {
-  padding: 3px;
-}
-
 .nav-menu-item:hover {
   transition: 0.5s;
   transform: scale(1) translateY(-15px);
@@ -255,18 +248,42 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.contenedorventas .items .item-ventas {
+  border-bottom: 2px solid #349226;
+  padding-bottom: 20px;
+}
+.contenedorventas .items .item-ventas h2 {
+  padding-top: 20px;
+}
+.contenedorventas .items .item-ventas .imagen-ventas {
+  overflow: hidden;
+  height: 80%;
+}
+.contenedorventas .items .item-ventas img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.contenedorventas .items .item-ventas img:hover {
+  transform: scale(1.15);
+}
+.contenedorventas .items img {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
 
 .tituloventas {
   margin-bottom: 60px;
 }
-
 .tituloventas div {
   position: relative;
   overflow: hidden;
   margin-right: 25px;
   height: 116px;
 }
-
 .tituloventas div span {
   font-weight: 800;
   font-size: 110px;
@@ -288,38 +305,6 @@ body {
   margin-bottom: 150px;
 }
 
-.contenedorventas .items .item-ventas {
-  border-bottom: 2px solid #349226;
-  padding-bottom: 20px;
-}
-
-.contenedorventas .items .item-ventas h2 {
-  padding-top: 20px;
-}
-
-.contenedorventas .items .item-ventas .imagen-ventas {
-  overflow: hidden;
-  height: 80%;
-}
-
-.contenedorventas .items img {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.contenedorventas .items .item-ventas img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-  transition: all 0.5s;
-}
-
-.contenedorventas .items .item-ventas img:hover {
-  transform: scale(1.15);
-}
-
 /*----------------ACA TERMINA VENTAS------------------------*/
 /*--------------aca empieza tasaciones-------------------------*/
 .contenedor-tasaciones {
@@ -333,7 +318,6 @@ body {
   text-align: center;
   border-bottom: solid 1px #000000;
 }
-
 .tasaciones p {
   text-align: justify;
   font-family: "Poppins";
@@ -392,7 +376,7 @@ body {
 .texto-grande {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   font-size: 48px;
   line-height: 1.25em;
 }
@@ -427,14 +411,12 @@ body {
   flex-wrap: wrap;
   grid-template-columns: 700px;
 }
-
 .nosotros div {
   position: relative;
   overflow: hidden;
   margin-right: 25px;
   height: 100px;
 }
-
 .nosotros div span {
   font-weight: 800;
   font-size: 4em;
@@ -496,15 +478,11 @@ body {
   grid-template-rows: repeat(2, 330px);
   gap: 40px;
 }
-
 .grid .datos-empresa div {
   text-align: center;
 }
 
-.dato-1,
-.dato-2,
-.dato-3,
-.dato-4 {
+.dato-1, .dato-2, .dato-3, .dato-4 {
   padding: 10px 20px 9px;
   background-color: #F9F9F9;
   min-height: 256px;
@@ -522,7 +500,6 @@ body {
   font-weight: 900;
   letter-spacing: -0.05em;
 }
-
 .datos-empresa p {
   width: 100%;
   height: 100%;
@@ -548,7 +525,6 @@ body {
   border-bottom: solid 1px rgba(0, 1, 0, 0.47);
   margin: 20px 10px;
 }
-
 .sobrenosotros-medio p {
   margin: 10px;
   font-weight: 700;
@@ -818,7 +794,6 @@ footer {
   margin: 10px 30px;
   justify-content: space-around;
 }
-
 .tarjeta div {
   position: absolute;
   width: 100%;
@@ -834,19 +809,16 @@ footer {
           backface-visibility: hidden;
   transition: 1s;
 }
-
 .tarjeta .frente {
   background-color: rgba(0, 0, 0, 0.3);
   transform: perspective(500px) rotateY(0deg);
   background-size: cover;
   background-position: center;
 }
-
 .tarjeta .espalda {
   background-color: rgba(255, 255, 255, 0.974);
   transform: perspective(500px) rotateY(180deg);
 }
-
 .tarjeta .espalda li {
   list-style: none;
   margin: 2px;
@@ -854,12 +826,11 @@ footer {
   font-size: 19px;
   font-weight: 800;
   font-family: "Poppins";
-  color: white;
+  color: #ffffff;
 }
-
 .tarjeta h1 {
   font-family: "Poppins";
-  color: white;
+  color: #ffffff;
   font-size: 50px;
   font-weight: 800;
   background-color: rgba(129, 120, 120, 0.3490196078);
@@ -867,11 +838,9 @@ footer {
   width: 100%;
   border-radius: 30px;
 }
-
 .tarjeta:hover .frente {
   transform: perspective(500px) rotateY(180deg);
 }
-
 .tarjeta:hover .espalda {
   background-color: rgba(255, 255, 255, 0.1);
   transform: perspective(500px) rotateY(360deg);
@@ -879,7 +848,7 @@ footer {
   -webkit-backdrop-filter: blur(5px);
   align-items: center;
   height: 300px;
-  color: white;
+  color: #ffffff;
 }
 
 /*pie de pagina copy*/
@@ -1487,4 +1456,3 @@ footer {
   }
 }
 /*VER DE CAMBIAR EL FLEX INERHIT POR WRAP, VE RPORUQE SE ROMPE LA PAGINA *//*# sourceMappingURL=style.css.map */
-/*HACER SASS */
