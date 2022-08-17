@@ -1,0 +1,185 @@
+$font-family_1: sans-serif;
+$font-family_2: 'Poppins', sans-serif;
+
+.empresa {
+	margin: 0 auto;
+	width: 100%;
+	margin-top: -40px;
+	padding-bottom: 60px;
+}
+.contenedor-base {
+	margin: auto;
+	max-width: 1080px;
+	width: 100%;
+	padding: 0 20px;
+	display: flex;
+	gap: 50px;
+	border-bottom: solid 2px #1f8f523e;
+	padding-bottom: 30px;
+	align-items: center;
+}
+.experiencia {
+	display: flex;
+}
+.numero-grande {
+	margin-right: 20px;
+	margin-bottom: 0px;
+	background-image: url(img/numerogrande.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: $font-family_1;
+	font-size: 11em;
+	line-height: 1;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.texto-grande {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: $font-family_2;
+	font-size: 48px;
+	line-height: 1.25em;
+}
+
+
+
+/*GRID*/
+.contenedordegrid {
+	width: 100%;
+	justify-content: center;
+}
+.grid {
+	margin: auto;
+	max-width: 1080px;
+	width: 100%;
+	padding: 0 20px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+	column-gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.nosotros {
+	margin: 0px 1.25em;
+	padding: 0 1.25em;
+	padding: 5px;
+	max-width: 34.375em;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	grid-template-columns: 700px;
+	div {
+		position: relative;
+		overflow: hidden;
+		margin-right: 25px;
+		height: 100px;
+		span {
+			font-weight: 800;
+			font-size: 4em;
+			line-height: 60px;
+			color: $color_2;
+			letter-spacing: -0.05em;
+			left: -2px;
+			position: relative;
+			top: 10%;
+			animation: show 1s forwards linear;
+		}
+	}
+}
+
+@keyframes show {
+    0% {
+        top: 100%;
+    }
+    70% {
+        top: 0;
+    }
+    
+    80% {
+        top: -10px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
+.nosotros {
+	p {
+		font-family: $font-family_1;
+		text-align: center;
+		font-size: 1.18em;
+		line-height: 29px;
+		font-weight: 600;
+		text-align: left;
+	}
+}
+.grid {
+	.datos-empresa {
+		padding: 5px;
+		margin-top: 80px;
+		max-width: 550px;
+		height: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 16.8em);
+		grid-template-rows: repeat(2, 330px);
+		gap: 40px;
+		div {
+			text-align: center;
+		}
+	}
+}
+.dato-1,.dato-2,.dato-3,.dato-4 {
+	padding: 10px 20px 9px;
+	background-color: $background-color_nosotros;
+	min-height: 256px;
+	height: 100%;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.datos-empresa {
+	h3 {
+		padding: 10px 10px;
+		font-family: $font-family_1;
+		text-align: center;
+		font-size: 48px;
+		line-height: 60px;
+		font-weight: 900;
+		letter-spacing: -0.05em;
+	}
+	p {
+		width: 100%;
+		height: 100%;
+		font-family: $font-family_1;
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 600;
+		text-align: left;
+	}
+}
+.sobrenosotros {
+	margin: 10px 254px;
+	padding: 3px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	font-family: $font-family_1;
+}
+.sobrenosotros-medio {
+	h2 {
+		font-size: 30px;
+		text-align: center;
+		border-bottom: solid 1px rgba(0, 1, 0, 0.47);
+		margin: 20px 10px;
+	}
+	p {
+		margin: 10px;
+		font-weight: 700;
+	}
+}

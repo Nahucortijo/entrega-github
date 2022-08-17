@@ -1,0 +1,27 @@
+/*--------------aca empieza tasaciones-------------------------*/
+.contenedor-tasaciones {
+	width: 80%;
+	margin: 0 auto;
+}
+.tasaciones {
+	h2 {
+		font-family: $font-family_1;
+		font-size: 30px;
+		text-align: center;
+		border-bottom: solid 1px #000000;
+	}
+	p {
+		text-align: justify;
+		font-family: $font-family_1;
+		font-weight: 700;
+	}
+}
+.imagentasacion {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	max-width: 800px;
+}
+
+
+/*aca termina tasaciones*/
