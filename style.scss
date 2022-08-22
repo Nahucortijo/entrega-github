@@ -63,7 +63,7 @@ body {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 1em;
-	font-family: $font-family_1;
+	font-family: "Poppins";
 	color: $color_1;
 	padding: 3px;
 	&:hover {
@@ -1152,7 +1152,9 @@ footer {
     
 }
 
-
+html {
+    overflow-x: hidden;
+}
 
 
 /*-----MAP Y MAP GET---- --*/

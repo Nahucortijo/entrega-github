@@ -527,7 +527,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 1em;
-  font-family: sans-serif;
+  font-family: "Poppins";
   color: #ffffff;
   padding: 3px;
 }
@@ -1447,6 +1447,10 @@ footer {
     width: 100%;
   }
 }
+html {
+  overflow-x: hidden;
+}
+
 /*-----MAP Y MAP GET---- --*/
 .whatsapp {
   background-color: transparent;
