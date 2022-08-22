@@ -1,0 +1,22 @@
+{
+  "name": "gestor",
+  "version": "1.0.0",
+  "description": "tercer entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Nahucortijo"
+  },
+  "keywords": [
+    "/"
+  ],
+  "author": "entrega-github",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}
