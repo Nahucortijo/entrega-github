@@ -473,6 +473,68 @@ button:active {
   font-weight: 700;
 }
 
+.contenedoralquileres {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.contenedoralquileres .caja-alquiler .item-alquiler {
+  border-bottom: 2px solid #349226;
+  padding-bottom: 20px;
+}
+.contenedoralquileres .caja-alquiler .item-alquiler h2 {
+  padding-top: 20px;
+}
+.contenedoralquileres .caja-alquiler .item-alquiler .imagen-alquiler {
+  overflow: hidden;
+  height: 80%;
+}
+.contenedoralquileres .caja-alquiler .item-alquiler img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.contenedoralquileres .caja-alquiler .item-alquiler img:hover {
+  transform: scale(1.15);
+}
+.contenedoralquileres .caja-alquiler img {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tituloalquileres {
+  margin-bottom: 60px;
+}
+.tituloalquileres div {
+  position: relative;
+  overflow: hidden;
+  margin-right: 25px;
+  height: 116px;
+}
+.tituloalquileres div span {
+  font-weight: 800;
+  font-size: 110px;
+  line-height: 110px;
+  color: #101010;
+  letter-spacing: -0.05em;
+  font-family: "Poppins", sans-serif;
+  left: -2px;
+  position: relative;
+  top: 100%;
+  -webkit-animation: show 0.5s forwards linear;
+          animation: show 0.5s forwards linear;
+}
+
+.caja-alquiler {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 90px 30px;
+  margin-bottom: 150px;
+}
+
 * {
   margin: 0;
   padding: 0;
