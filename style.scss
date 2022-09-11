@@ -4,6 +4,7 @@
 @import "scss/contacto";
 @import "scss/sobrenosotros";
 @import "scss/alquileres";
+@import "scss/administracion";
 
 *{
     margin: 0;
@@ -244,50 +245,6 @@ color: white;
 .social li:hover{
     transform: scale(0.5) translateY(-15px);
 }
-/*-----------------aca empieza VENTAS------------------------*/
-
-
-/*----------------ACA TERMINA VENTAS------------------------*/
-
-/*--------------aca empieza tasaciones-------------------------*/
-.contenedor-tasaciones {
-	width: 80%;
-	margin: 0 auto;
-}
-.tasaciones {
-	h2 {
-		font-family: $font-family_1;
-		font-size: 30px;
-		text-align: center;
-		border-bottom: solid 1px #000000;
-	}
-	p {
-		text-align: justify;
-		font-family: $font-family_1;
-		font-weight: 700;
-	}
-}
-.imagentasacion {
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	max-width: 800px;
-}
-
-
-/*aca termina tasaciones*/
-
-/**/
-/*aca empieza sobre nosotros*/
-
-/*-----------------aca termina sobre nosotros---------------------*/
-
-
-
-/*aca empieza el formulario de contacto REVISSSSSSSAR*/
-
-
-/*aca termina el formulario de contacto*/
 
 
 /*footer titulo y wpp*/
@@ -402,12 +359,12 @@ footer {
 			padding-left: 10px;
 			font-size: 19px;
 			font-weight: 800;
-			font-family: $font-family_1;
+			font-family: 'Poppins' ;
 			color: $color_1;
 		}
 	}
 	h1 {
-		font-family: $font-family_1;
+		font-family: 'Poppins' ;
 		color: $color_1;
 		font-size: 50px;
 		font-weight: 800;
@@ -620,6 +577,34 @@ color: white;
     min-height: 300px;
 }
 .boton-ventas{
+   width: 30%;
+}
+
+/*--------------VENTAS RESPONSIVE--------------------*/
+
+/*---------------alquuileres RESPONSIVE--------------------*/
+.contenedoralquileres .caja-alquiler{
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    grid-gap: 60px 20px;
+    margin-bottom: 80px;
+}       
+.contenedoralquileres .tituloalquileres div  {
+   height: 63px;
+  
+}
+.tituloalquileres  {
+   margin-bottom: 40px;
+   margin-top: 45px;
+ }
+.contenedoralquileres .tituloalquileres div span {
+    font-size: 47px;
+    line-height: 47px;
+    letter-spacing: -0.03em;
+}
+.contenedoralquileres .caja-alquiler .item-alquiler img {
+    min-height: 300px;
+}
+.boton-alquiler{
    width: 30%;
 }
 

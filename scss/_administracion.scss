@@ -1,0 +1,26 @@
+
+/*aca empieza administracion*/
+.tituloadministracion {
+	margin: 0 20% 10%;
+	.titulosub {
+		font-size: 2.5em;
+		border-bottom: solid 2px rgba(31, 143, 82, 0.2431372549);
+	}
+	div {
+		font-family: 'Poppins';
+		font-size: 1em;
+		font-weight: bolder;
+		margin-top: 30px;
+	}
+	p {
+		font-weight: 500;
+	}
+}
+.titulosub {
+	color: #333333;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
